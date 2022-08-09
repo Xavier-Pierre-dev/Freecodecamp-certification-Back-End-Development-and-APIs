@@ -1,4 +1,4 @@
-# 🚀 Use the Caret-Character to Use the Latest Minor Version of a Dependency 🚀<!-- omit in TOC -->
+# 🚀 Remove a Package from Your Dependencies 🚀<!-- omit in TOC -->
 
 <div align="center">
 

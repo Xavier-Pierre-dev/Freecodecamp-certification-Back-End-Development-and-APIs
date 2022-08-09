@@ -4,7 +4,7 @@
 
 ![image](./../Logo/../../Logo/540px-Npm-logo.svg.png)
 
-|[previous](./../1_How-to-Use-package-json-the-Core-of-Any-Node-js-Project-or-npm-Package/Readme.md)|[index](./../../Readme.md)|[next](./../3_Add-Keywords-to-Your-package-json/README.md)|
+|[previous](./../1_How-to-Use-package-json-the-Core-of-Any-Node-js-Project-or-npm-Package/Readme.md)|[index](./../../Readme.md)|[next](./../3_Add-Keywords-to-Your-package-json/Readme.md)|
 |---|---|---|
 
 </div>
@@ -54,7 +54,7 @@ All npm packages contain a file, usually in the project root, called package.jso
 <div align="center">
 
 
-|[previous](./../1_How-to-Use-package-json-the-Core-of-Any-Node-js-Project-or-npm-Package/Readme.md)|[index](./../../Readme.md)|[next](./../3_Add-Keywords-to-Your-package-json/README.md)|
+|[previous](./../1_How-to-Use-package-json-the-Core-of-Any-Node-js-Project-or-npm-Package/Readme.md)|[index](./../../Readme.md)|[next](./../3_Add-Keywords-to-Your-package-json/Readme.md)|
 |---|---|---|
 
 </div>
