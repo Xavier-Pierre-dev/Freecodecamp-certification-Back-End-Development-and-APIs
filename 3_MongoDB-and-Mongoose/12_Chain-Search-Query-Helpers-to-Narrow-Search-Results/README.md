@@ -1,0 +1,5 @@
+<div class="challenge-instructions"><div><section id="description">
+<p>If you don’t pass the callback as the last argument to <code>Model.find()</code> (or to the other search methods), the query is not executed. You can store the query in a variable for later use. This kind of object enables you to build up a query using chaining syntax. The actual db search is executed when you finally chain the method <code>.exec()</code>. You always need to pass your callback to this last method. There are many query helpers, here we'll use the most commonly used.</p>
+</section></div><hr/><div><section id="instructions">
+<p>Modify the <code>queryChain</code> function to find people who like the food specified by the variable named <code>foodToSearch</code>. Sort them by <code>name</code>, limit the results to two documents, and hide their age. Chain <code>.find()</code>, <code>.sort()</code>, <code>.limit()</code>, <code>.select()</code>, and then <code>.exec()</code>. Pass the <code>done(err, data)</code> callback to <code>exec()</code>.</p>
+</section></div><hr/></div>
