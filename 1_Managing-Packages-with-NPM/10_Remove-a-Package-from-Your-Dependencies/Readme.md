@@ -4,8 +4,9 @@
 
 ![image](./../Logo/../../Logo/540px-Npm-logo.svg.png)
 
-|[previous](./../8_Use-the-Tilde-Character-to-Always-Use-the-Latest-Patch-Version-of-a-Dependency/Readme.md)|[index](./../../Readme.md)|[next](./../10_Remove-a-Package-from-Your-Dependencies/Readme.md)|
-|---|---|---|
+
+|[previous](./../8_Use-the-Tilde-Character-to-Always-Use-the-Latest-Patch-Version-of-a-Dependency/Readme.md)|[index](./../../Readme.md)|
+|---|---|
 
 </div>
 
@@ -204,8 +205,8 @@ All npm packages contain a file, usually in the project root, called package.jso
 <div align="center">
 
 
-|[previous](./../8_Use-the-Tilde-Character-to-Always-Use-the-Latest-Patch-Version-of-a-Dependency/Readme.md)|[index](./../../Readme.md)|[next](./../10_Remove-a-Package-from-Your-Dependencies/Readme.md)|
-|---|---|---|
+|[previous](./../8_Use-the-Tilde-Character-to-Always-Use-the-Latest-Patch-Version-of-a-Dependency/Readme.md)|[index](./../../Readme.md)|
+|---|---|
 
 </div>
 
