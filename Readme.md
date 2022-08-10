@@ -55,7 +55,7 @@ online course : https://www.freecodecamp.org/learn/back-end-development-and-apis
 <details>
 <summary><CODE>MongoDB and Mongoose</CODE></summary>
 
-* [Install and Set Up Mongoose](./3_MongoDB-and-Mongoose/1_Install-and-Set-Up-Mongoose) > [code](./3_MongoDB-and-Mongoose/1_Install-and-Set-Up-Mongoose/myApp.js)  |  [readme](./3_MongoDB-and-Mongoose/1_Install-and-Set-Up-Mongoose/Readme.md)
+* [Install and Set Up Mongoose](./3_MongoDB-and-Mongoose/1_Install-and-Set-Up-Mongoose) > [code](./3_MongoDB-and-Mongoose/1_Install-and-Set-Up-Mongoose/myApp.js)  |  [readme](./3_MongoDB-and-Mongoose/1_Install-and-Set-Up-Mongoose/README.md)
 * [Create a Model](./3_MongoDB-and-Mongoose/2_Create-a-Model) > [code](./3_MongoDB-and-Mongoose/2_Create-a-Model/myApp.js)  |  [readme](./3_MongoDB-and-Mongoose/2_Create-a-Model/README.md)
 * [Create and Save a Record of a Model](./3_MongoDB-and-Mongoose/3_Create-and-Save-a-Record-of-a-Model) > [code](./3_MongoDB-and-Mongoose/3_Create-and-Save-a-Record-of-a-Model/myApp.js)  |  [readme](./3_MongoDB-and-Mongoose/3_Create-and-Save-a-Record-of-a-Model/README.md)
 * [Create Many Records with model create](./3_MongoDB-and-Mongoose/4_Create-Many-Records-with-model-create) > [code](./3_MongoDB-and-Mongoose/4_Create-Many-Records-with-model-create/myApp.js)  |  [readme](./3_MongoDB-and-Mongoose/4_Create-Many-Records-with-model-create/README.md)
