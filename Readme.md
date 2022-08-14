@@ -802,10 +802,123 @@ Edit the ``@freecodecamp/example`` package version key to be ``^1.2.13`` → thi
 
 <br>
 
+## Projets
+
+Some of the project work with a mongoDB database. So to make them work a mongoDB database should be setup. For that this is an introduction guide in order to do that for free with atlas DB :
+* [MongoDB Atlas Tutorial – How to Get Started [FreeCodeCamp][Article]](https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/)
+* [Introduction to the MongoDB and Mongoose Challenges [Ganesh][Article]](https://www.notion.so/Introduction-to-the-MongoDB-and-Mongoose-Challenges-12b4ad2e0ac744f686405021c5556dd0)
+
+### MongoDB Atlas - How to get started ?
+
+**MongoDB Setup:**
+
+<details>
+<summary>1. Go to MongoDB Atlas and Create an Account : https://www.mongodb.com/atlas/database</summary>
+
+</details>
+
+<details>
+<summary>2. Create a new Project</summary>
+
+![image](./mongoDB-setup/Animation1.gif)
+
+</details>
+
+<details>
+<summary>2. Create a Free Shared Cluster, customizing the location and name if you wish</summary>
+
+![image](./mongoDB-setup/Animation2.gif)
+
+</details>
+
+<details>
+<summary>3. Go to Database Access, create a new user with a password (copy and paste this somewhere) and give the user read/write previlages</summary>
+
+![image](./mongoDB-setup/1.PNG)
+
+</details>
+
+<details>
+<summary>4. Go to Database > View Monitoring > Click Collection > Click Add my Own Data > and Create a Database and Collection (note down the database name)</summary>
+
+![image](./mongoDB-setup/Animation3.gif)
+
+</details>
+
+<details>
+<summary>5. Go to Network Access > Add IP Address > and add your IP address here or allow access from anywhere</summary>
+
+![image](./mongoDB-setup/Animation4.gif)
+
+</details>
+
+<br>
+
+#### Connect an app to your mongoDB database 
+
+<details>
+<summary>Go to database > Connect > Create a database user > Choose 'Connect with App' > Copy the URI and paste it somewhere because you will need it to connect our application : </summary>
+
+![image](./mongoDB-setup/Animation5.gif)
+
+</details>
+
+**Note :** Note our user, password, and the uri :
+
+URI example :
+```
+mongodb+srv://example:<password>@clusterexample.fww03mw.mongodb.net/?retryWrites=true&w=majority
+```
+compose like this :
+```
+mongodb+srv://<user>:<password>@clusterexample.fww03mw.mongodb.net/?retryWrites=true&w=majority
+```
+* `<user>` : Your User to connect to the database
+* `<password>` : Your Password to connect to the database
+
+
+<br>
+
+Now to setup you just need to add this information as your environment variable. Here an example with Replit :
+
+<table>
+    <thead>
+        <tr>
+            <td>setup environnement variable</td>
+            <td>connect to the database</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+
+![image](mongoDB-setup/2.PNG)
+
+</td>
+            <td>
+
+```js
+// connect to database
+const mongoDB_URI = process.env['mongoDB_URI']
+mongoose.connect(mongoDB_URI, 
+{ useNewUrlParser: true, useUnifiedTopology: true });
+```
+
+</td>
+        </tr>
+    </tbody>
+</table>
+
+**Note:** The example project used in order to create the gif for the guide have been directly deleted after that. 
+
+During the different project I use some basic concept such as create a REST API, crud, post request, get request, middleware, schema... this is already some concept that I already use inside some of my other projects for example [MERN Social Media Project](https://github.com/Xavier-Pierre-dev/MERN-Social-Media-project). Despite the example in this formation are quite simple they give a good entry point to start using : Node, Express, MongoDB and Mongoose. So this little project can be considered like note practice in order to create more complexe stuff. For example middleware are often use in order to create authentication / autorization method in order to protect our application. This is something I did inside the MERN project using JWT, and this is already a concept that I use in Java in order to do a SSO (single sign on) authentication with filter (basically middleware) in order to protect the access of our website/application. 
+
 ## __Storytelling__ : Why did i decid to get this certification ? 
 I pass this certification for the same reason than i pass the HTML/CSS certification from FCC (freecodecamp) so the reason haven't change and can be found here => https://github.com/Xavier-Pierre-dev/FreeCodeCamp-Certification_Responsive-web-design.
 
 <br>
+
+
 
 ## Ressource :
 
