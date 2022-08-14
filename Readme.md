@@ -911,7 +911,21 @@ mongoose.connect(mongoDB_URI,
 
 **Note:** The example project used in order to create the gif for the guide have been directly deleted after that. 
 
-During the different project I use some basic concept such as create a REST API, crud, post request, get request, middleware, schema... this is already some concept that I already use inside some of my other projects for example [MERN Social Media Project](https://github.com/Xavier-Pierre-dev/MERN-Social-Media-project). Despite the example in this formation are quite simple they give a good entry point to start using : Node, Express, MongoDB and Mongoose. So this little project can be considered like note practice in order to create more complexe stuff. For example middleware are often use in order to create authentication / autorization method in order to protect our application. This is something I did inside the MERN project using JWT, and this is already a concept that I use in Java in order to do a SSO (single sign on) authentication with filter (basically middleware) in order to protect the access of our website/application. 
+During the different project I use some basic concept such as create a REST API, crud, post request, get request, middleware, schema... this is already some concept that I already use inside some of my other projects for example [MERN Social Media Project](https://github.com/Xavier-Pierre-dev/MERN-Social-Media-project). 
+
+<details>
+<summary><div align="center">
+
+![image](./Logo/mern.png)
+
+</div></summary>
+
+![image](https://raw.githubusercontent.com/Xavier-Pierre-dev/MERN-Social-Media-project/main/social-media.JPG)
+
+
+</details>
+
+Despite the example in this formation are quite simple they give a good entry point to start using : Node, Express, MongoDB and Mongoose. So this little project can be considered like note practice in order to create more complexe stuff. For example middleware are often use in order to create authentication / autorization method in order to protect our application. This is something I did inside the MERN project using JWT, and this is already a concept that I use in Java in order to do a SSO (single sign on) authentication with filter (basically middleware) in order to protect the access of our website/application. 
 
 ## __Storytelling__ : Why did i decid to get this certification ? 
 I pass this certification for the same reason than i pass the HTML/CSS certification from FCC (freecodecamp) so the reason haven't change and can be found here => https://github.com/Xavier-Pierre-dev/FreeCodeCamp-Certification_Responsive-web-design.
