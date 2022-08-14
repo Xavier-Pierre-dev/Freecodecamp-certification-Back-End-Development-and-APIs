@@ -824,8 +824,3 @@ I pass this certification for the same reason than i pass the HTML/CSS certifica
   * [Documentation link](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
 
 
-* https://www.mindinventory.com/blog/mean-stack-vs-mern-stack/
-* https://university.mongodb.com/certification?_ga=2.45952996.1566153432.1660033234-1718428869.1654494254
-* course to prepare mongoDB developer certif : https://university.mongodb.com/learning_paths/developer
-* course to prepare mongoDB database administrator certif : https://university.mongodb.com/learning_paths/dba
-* https://www.freecodecamp.org/news/create-an-industry-level-rest-api-using-net-6/
