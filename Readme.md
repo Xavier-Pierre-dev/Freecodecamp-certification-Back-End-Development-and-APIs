@@ -913,15 +913,22 @@ mongoose.connect(mongoDB_URI,
 
 During the different project I use some basic concept such as create a REST API, crud, post request, get request, middleware, schema... this is already some concept that I already use inside some of my other projects for example [MERN Social Media Project](https://github.com/Xavier-Pierre-dev/MERN-Social-Media-project). 
 
-<details>
-<summary><div align="center">
+<div align="center">
 
 ![image](./Logo/mern.png)
 
-</div></summary>
+</div>
+
+<details>
+<summary>Screenshot : MERN Social Media Project</summary>
+
+<br>
+
+<div align="center">
 
 ![image](https://raw.githubusercontent.com/Xavier-Pierre-dev/MERN-Social-Media-project/main/social-media.JPG)
 
+</div>
 
 </details>
 
